@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler]
+"EnablePreemption"=dword:00000000
+"GPUPreemptionLevel"=dword:00000000
+"EnableAsyncMidBufferPreemption"=dword:00000000
+"EnableMidGfxPreemptionVGPU"=dword:00000000
+"EnableMidBufferPreemptionForHighTdrTimeout"=dword:00000000
+"EnableSCGMidBufferPreemption"=dword:00000000
+"PerfAnalyzeMidBufferPreemption"=dword:00000000
+"EnableMidGfxPreemption"=dword:00000000
+"EnableMidBufferPreemption"=dword:00000000
+"EnableCEPreemption"=dword:00000000
+"DisableCudaContextPreemption"=dword:00000000
+"DisablePreemptionOnS3S4"=dword:00000000
+"ComputePreemptionLevel"=dword:00000000
+"DisablePreemption"=dword:00000001

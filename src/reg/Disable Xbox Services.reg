@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00 - By M4k
+
+:: Xbox Live Game Save Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\XblGameSave]
+"Start"=dword:00000004
+
+:: Xbox Live Auth Manager Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\XblAuthManager]
+"Start"=dword:00000004
+
+:: Xbox Networking Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\XboxNetApiSvc]
+"Start"=dword:00000004
+
+:: Xbox Accessory Management Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\XboxGipSvc]
+"Start"=dword:00000004
+
+:: Xbox Net Api Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\XboxNetApiSvc]
+"Start"=dword:00000004

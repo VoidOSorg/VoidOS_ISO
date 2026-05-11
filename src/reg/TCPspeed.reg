@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpDelAckTicks"="2"
+"TcpAckFrequency"="1"
+"MaxUserPort"="65534"
+"TcpNumConnections"="16777214"
+"Tcp1323Opts"="1"
+"TcpWindowSize"="8192"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces]
+"TcpWindowSize"="8192"

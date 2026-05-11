@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00 - By M4k
+
+:: Maps Broker Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MapsBroker]
+"Start"=dword:00000004
+
+:: Geolocation Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lfsvc]
+"Start"=dword:00000004
+
+:: Connected User Experiences and Telemetry
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DiagTrack]
+"Start"=dword:00000004

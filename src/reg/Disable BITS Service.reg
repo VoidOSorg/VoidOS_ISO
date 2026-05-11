@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00 - By M4k
+
+:: Background Intelligent Transfer Service (BITS)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BITS]
+"Start"=dword:00000004

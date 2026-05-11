@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/10/2026 10:54:48</Date>
+	<Version>1.1</Version>
+	<AppInfo>
+		<Version>2026.5.10996</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Core 22H2 x64 - 10.0.19045.6456 (it-IT)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Core 22H2 x64 - 10.0.19045.6456 (it-IT)</Version>
+		<GUID>{7DCE22E3-E87A-4B04-BD56-280679591688}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>microsoft.services.store.engagement 'Microsoft Engagement Framework'</c>
+	</RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/10/2026 16:49:18"></RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/10/2026 16:49:18">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="Privacy">
+				<Tweak name="Advanced\Start_TrackProgs">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="TaskbarTweaks">
+				<Tweak name="Search\SearchboxTaskbarMode">1</Tweak>
+				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">2</Tweak>
+				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
+				<Tweak name="edgeupdatem\edgeupdatem">4</Tweak>
+			</TweakGroup>
+		</Services>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\Void_1version.iso</AutoIsoFile>
+		<AutoIsoLabel>Void</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/10/2026 16:49:18">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove>
+			<Item type="18">
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\start_windowsup.bat</PathOriginal>
+				<ParamsOriginal></ParamsOriginal>
+				<IndexOriginal>1004</IndexOriginal>
+			</Item>
+		</Remove>
+		<Change>
+			<Item type="23">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\VoidOS\</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Void\</DestPath>
+				<Index>0</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\VoidOS\</PathOriginal>
+				<IndexOriginal>0</IndexOriginal>
+				<DestPathOriginal>\$OEM$\$$\VoidOS\</DestPathOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\voidos.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1006</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\voidos.bat</PathOriginal>
+				<IndexOriginal>1005</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\BraveBrowserSetup-BRV013.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1007</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\BraveBrowserSetup-BRV013.exe</PathOriginal>
+				<IndexOriginal>1006</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\restart.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1008</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\restart.bat</PathOriginal>
+				<IndexOriginal>1007</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+		</Change>
+		<Add>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\start_windowsup.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1005</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/10/2026 16:49:18">
+		<Change>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\start_windowsup.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1004</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\start_windowsup.bat</PathOriginal>
+				<IndexOriginal>1003</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\voidos.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1005</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\voidos.bat</PathOriginal>
+				<IndexOriginal>1004</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\BraveBrowserSetup-BRV013.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1006</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\BraveBrowserSetup-BRV013.exe</PathOriginal>
+				<IndexOriginal>1005</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+			<Item type="18">
+				<Path>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\restart.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1007</Index>
+				<PathOriginal>C:\Program Files\NTLite\Cache\Images\Void\sources\$OEM$\$$\Setup\FilesU\restart.bat</PathOriginal>
+				<IndexOriginal>1006</IndexOriginal>
+				<ParamsOriginal></ParamsOriginal>
+			</Item>
+		</Change>
+		<Add>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\clean_start_taskbar.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1003</Index>
+			</Item>
+		</Add>
+	</Execution>
+</Preset>

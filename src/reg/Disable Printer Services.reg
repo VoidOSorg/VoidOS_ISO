@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00 - By M4k
+                                                                                                                   
+:: Print Spooler
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"Start"=dword:00000004
+
+:: PrintNotify
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PrintNotify]
+"Start"=dword:00000004
+
+:: Fax Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Fax]
+"Start"=dword:00000004

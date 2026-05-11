@@ -1,0 +1,56 @@
+Windows Registry Editor Version 5.00
+
+; --- Priorità GPU ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"GpuPriority"=dword:00000008
+"Win32PrioritySeparation"=dword:00000026
+
+; --- HDD Parking OFF ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\storahci\Parameters\Device]
+"NoLPM"=dword:00000001
+"LatencyCap"=dword:00000000
+"StartPortIdle"=dword:00000000
+
+; --- Contiguous DPI Map ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ContiguousDpiMap"=dword:00000001
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000001
+"ClearPageFileAtShutdown"=dword:00000000
+
+; --- NDU.sys disabilitato ---
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Ndu]
+"Start"=dword:00000004
+
+; --- Disabilita Dynamic Tick ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"DisableDynamicTick"=dword:00000001
+
+; --- Disattiva stato idle CPU (richiede applicazione tramite powercfg anche) ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\5d76a2ca-e8c0-402f-a133-2158492d58ad\0cc5b647-c1df-4637-891a-dec35c318583]
+"ValueMax"=dword:00000064
+"ValueMin"=dword:00000064
+
+; --- Power Throttling OFF ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+; --- Telemetria OFF ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+; --- Disattiva aggiornamenti automatici driver da Windows Update ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
+
+; --- Disabilita ibernazione ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+
+; --- Disabilita manutenzione automatica ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"MaintenanceDisabled"=dword:00000001
+
+; --- Scheduling Timer Abilitato (se HPET disattivo) ---
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"GlobalTimerResolutionRequests"=dword:00000001

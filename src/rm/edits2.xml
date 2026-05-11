@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/10/2026 16:21:35</Date>
+	<Version>1.1</Version>
+	<AppInfo>
+		<Version>2026.5.10996</Version>
+		<Licensed>No</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Core 22H2 x64 - 10.0.19045.6456 (it-IT)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Core 22H2 x64 - 10.0.19045.6456 (it-IT)</Version>
+		<GUID>{6C27D953-3DD6-42BB-8886-048636BF5AA1}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+	</RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/10/2026 16:10:36">
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.accountscontrol 'Email e account'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.ecapp 'Controllo ottico'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Suggerimenti (Informazioni di base)'</c>
+		<c>microsoft.microsoft3dviewer 'Visualizzatore 3D'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint 'Paint 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
+		<c>microsoft.windows.callingshellapp 'Chiama'</c>
+		<c>microsoft.windows.narratorquickstart 'Assistente vocale'</c>
+		<c>microsoft.windows.sechealthui 'Windows Defender'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxapp 'Xbox'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoft.xboxgameoverlay 'Xbox Game Bar Plugin'</c>
+		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Xbox Game Speech Window'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Groove Music'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
+		<c>windows.cbspreview 'Anteprima codice a barre Windows'</c>
+	</RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/09/2026 22:37:11">
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Suggerimenti (Informazioni di base)'</c>
+		<c>microsoft.microsoft3dviewer 'Visualizzatore 3D'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint 'Paint 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.services.store.engagement 'Microsoft Engagement Framework'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.windows.callingshellapp 'Chiama'</c>
+		<c>microsoft.windows.narratorquickstart 'Assistente vocale'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxapp 'Xbox'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoft.xboxgameoverlay 'Xbox Game Bar Plugin'</c>
+		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Xbox Game Speech Window'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Groove Music'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
+		<c>windows.cbspreview 'Anteprima codice a barre Windows'</c>
+	</RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/09/2026 02:44:36">
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.ecapp 'Controllo ottico'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Suggerimenti (Informazioni di base)'</c>
+		<c>microsoft.microsoft3dviewer 'Visualizzatore 3D'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint 'Paint 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.services.store.engagement 'Microsoft Engagement Framework'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.storepurchaseapp 'Store Experience Host'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.webmediaextensions 'Web Media Extensions'</c>
+		<c>microsoft.windows.callingshellapp 'Chiama'</c>
+		<c>microsoft.windows.narratorquickstart 'Assistente vocale'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxapp 'Xbox'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoft.xboxgameoverlay 'Xbox Game Bar Plugin'</c>
+		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Xbox Game Speech Window'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Groove Music'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
+		<c>windows.cbspreview 'Anteprima codice a barre Windows'</c>
+	</RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/09/2026 01:48:38"></RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/09/2026 01:44:35"></RemoveComponents>
+	<RemoveComponents AppRemovalMode="DISM" date="05/09/2026 01:27:25">
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.accountscontrol 'Email e account'</c>
+		<c>microsoft.advertising.xaml 'Microsoft Advertising SDK for XAML'</c>
+		<c>microsoft.bingweather 'MSN Weather'</c>
+		<c>microsoft.ecapp 'Controllo ottico'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Suggerimenti (Informazioni di base)'</c>
+		<c>microsoft.microsoft3dviewer 'Visualizzatore 3D'</c>
+		<c>microsoft.microsoftedgedevtoolsclient 'Microsoft Edge DevTools Client'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.microsoftstickynotes 'Microsoft Sticky Notes'</c>
+		<c>microsoft.mixedreality.portal 'Mixed Reality Portal'</c>
+		<c>microsoft.mspaint 'Paint 3D'</c>
+		<c>microsoft.office.onenote 'OneNote'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.skypeapp 'Skype'</c>
+		<c>microsoft.wallet 'Microsoft Pay'</c>
+		<c>microsoft.windows.callingshellapp 'Chiama'</c>
+		<c>microsoft.windows.narratorquickstart 'Assistente vocale'</c>
+		<c>microsoft.windows.photos 'Microsoft Photos'</c>
+		<c>microsoft.windowsalarms 'Windows Alarms &amp; Clock'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.xbox.tcui 'Xbox TCUI'</c>
+		<c>microsoft.xboxapp 'Xbox'</c>
+		<c>microsoft.xboxgamecallableui 'Xbox Game UI'</c>
+		<c>microsoft.xboxgameoverlay 'Xbox Game Bar Plugin'</c>
+		<c>microsoft.xboxgamingoverlay 'Xbox Game Bar'</c>
+		<c>microsoft.xboxspeechtotextoverlay 'Xbox Game Speech Window'</c>
+		<c>microsoft.yourphone 'Your Phone'</c>
+		<c>microsoft.zunemusic 'Groove Music'</c>
+		<c>microsoft.zunevideo 'Movies &amp; TV'</c>
+		<c>windows.cbspreview 'Anteprima codice a barre Windows'</c>
+	</RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/10/2026 16:10:36">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/09/2026 22:37:11">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/09/2026 02:44:36">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/09/2026 01:48:38">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/09/2026 01:44:35">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Compatibility date="05/09/2026 01:27:25">
+		<ComponentFeatures>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">LegacyGames</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">OneNote</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">WFC</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features date="05/10/2026 16:10:36">
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+	</Features>
+	<Features date="05/09/2026 22:37:11">
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+	</Features>
+	<Features date="05/09/2026 02:44:36">
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+	</Features>
+	<Features date="05/09/2026 01:48:38">
+		<Feature name="SearchEngine-Client-Package">false</Feature>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
+	</Features>
+	<Packages>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+	</Packages>
+	<Packages date="05/10/2026 16:10:36">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5011048-x64.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066130-x64-ndp481_62d1e2cbc14bd4ef08e10b076868a6ee7a986fa6.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00_14.0.33519.0_x64.appx</File>
+	</Packages>
+	<Packages date="05/09/2026 22:37:11">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5011048-x64.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066130-x64-ndp481_62d1e2cbc14bd4ef08e10b076868a6ee7a986fa6.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00_14.0.33519.0_x64.appx</File>
+	</Packages>
+	<Packages date="05/09/2026 02:44:36">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5011048-x64.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066130-x64-ndp481_62d1e2cbc14bd4ef08e10b076868a6ee7a986fa6.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00_14.0.33519.0_x64.appx</File>
+	</Packages>
+	<Packages date="05/09/2026 01:48:38">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+	</Packages>
+	<Packages date="05/09/2026 01:44:35">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+	</Packages>
+	<Packages date="05/09/2026 01:27:25">
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066791-x64_3210d264091be5effb3253d05397c4daefba44c8.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5011048-x64.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5066130-x64-ndp481_62d1e2cbc14bd4ef08e10b076868a6ee7a986fa6.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\windows10.0-kb5074207-x64_4e08468033c309bb68c708a8157c7a29d3822fb5.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\Microsoft.VCLibs.140.00_14.0.33519.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\10.22H2.x64\PowerShell-7.6.1.msixbundle</File>
+	</Packages>
+	<Tweaks>
+		<Settings date="05/10/2026 16:10:36">
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\AccentColorMenu">-16777216</Tweak>
+				<Tweak name="Accent\StartColorMenu">-16777216</Tweak>
+				<Tweak name="DWM\AccentColorInactive">-16777216</Tweak>
+				<Tweak name="Desktop\IconSize">32</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">0</Tweak>
+				<Tweak name="NewStartPanel\{645FF040-5081-101B-9F08-00AA002F954E}">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">1</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+				<Tweak name="Explorer\AltTabSettings">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="Windows Search\AllowCortana">0</Tweak>
+				<Tweak name="Search\HistoryViewEnabled">0</Tweak>
+				<Tweak name="Search\DeviceHistoryEnabled">0</Tweak>
+				<Tweak name="Rules\NumberOfSIUFInPeriod">0</Tweak>
+				<Tweak name="appointments\Value">Deny</Tweak>
+				<Tweak name="contacts\Value">Deny</Tweak>
+				<Tweak name="BackgroundAccessApplications\GlobalUserDisabled">1</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">0</Tweak>
+				<Tweak name="Advanced\ShowCortanaButton">0</Tweak>
+				<Tweak name="TrainedDataStore\HarvestContacts">0</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="InputPersonalization\RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="Explorer\SmartScreenEnabled">Off</Tweak>
+				<Tweak name="Internet Explorer\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="MicrosoftEdge\PhishingFilter\Enabledv9">0</Tweak>
+				<Tweak name="WindowsCopilot\TurnOffWindowsCopilot">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="State\AccountProtection_MicrosoftAccount_Disconnected">0</Tweak>
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
+				<Tweak name="Features\TamperProtection">0</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Settings date="05/09/2026 22:37:11">
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Explorer\DisableNotificationCenter">1</Tweak>
+				<Tweak name="Accent\StartColorMenu">-16777216</Tweak>
+				<Tweak name="DWM\AccentColorInactive">-16777216</Tweak>
+				<Tweak name="Desktop\IconSize">32</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">1</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="DataCollection\AllowTelemetry">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
+				<Tweak name="GameConfigStore\GameDVR_FSEBehavior">2</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+			</TweakGroup>
+			<TweakGroup name="TaskbarTweaks">
+				<Tweak name="Search\SearchboxTaskbarMode">1</Tweak>
+				<Tweak name="People\PeopleBand">0</Tweak>
+				<Tweak name="Feeds\ShellFeedsTaskbarViewMode">2</Tweak>
+				<Tweak name="Explorer\HideSCAMeetNow">1</Tweak>
+				<Tweak name="Explorer\NoTrayItemsDisplay">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Settings date="05/09/2026 02:44:36">
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Explorer\DisableNotificationCenter">1</Tweak>
+				<Tweak name="Accent\AccentColorMenu">-65536</Tweak>
+				<Tweak name="Accent\StartColorMenu">-16777216</Tweak>
+				<Tweak name="Desktop\IconSize">32</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">1</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+				<Tweak name="QuietHours\Enable">1</Tweak>
+				<Tweak name="Mouse\MouseSpeed"></Tweak>
+				<Tweak name="Desktop\MenuShowDelay">4</Tweak>
+				<Tweak name="Desktop\WallpaperStyle">6</Tweak>
+				<Tweak name="Explorer\AltTabSettings">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Settings date="05/09/2026 01:48:38">
+			<TweakGroup name="TaskbarTweaks">
+				<Tweak name="Advanced\TaskbarSmallIcons">1</Tweak>
+				<Tweak name="Search\SearchboxTaskbarMode">0</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Settings date="05/09/2026 01:44:35">
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Accent\StartColorMenu">-2004671</Tweak>
+				<Tweak name="DWM\AccentColorInactive">-2004671</Tweak>
+				<Tweak name="WindowMetrics\MinAnimate">0</Tweak>
+				<Tweak name="NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}">1</Tweak>
+				<Tweak name="NewStartPanel\{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}">1</Tweak>
+				<Tweak name="Personalize\AppsUseLightTheme">0</Tweak>
+				<Tweak name="Personalize\SystemUsesLightTheme">0</Tweak>
+				<Tweak name="Personalize\ColorPrevalence">-1</Tweak>
+				<Tweak name="QuietHours\Enable">1</Tweak>
+				<Tweak name="Desktop\MenuShowDelay">390</Tweak>
+				<Tweak name="Desktop\TileWallpaper"></Tweak>
+				<Tweak name="Explorer\AltTabSettings">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="System\NoConnectedUser">3</Tweak>
+				<Tweak name="System\EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="OneDrive\DisableFileSyncNGSC">1</Tweak>
+				<Tweak name="GraphicsDrivers\HwSchMode">2</Tweak>
+				<Tweak name="StoragePolicy\256">30</Tweak>
+				<Tweak name="StoragePolicy\512">60</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="Notifications\DisableEnhancedNotifications">1</Tweak>
+				<Tweak name="Notifications\DisableNotifications">1</Tweak>
+				<Tweak name="Windows Defender\DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services date="05/10/2026 16:10:36">
+			<TweakGroup name="services">
+				<Tweak name="TapiSrv\TapiSrv">4</Tweak>
+				<Tweak name="Themes\Themes">4</Tweak>
+				<Tweak name="WSearch\WSearch">4</Tweak>
+				<Tweak name="XboxGipSvc\XboxGipSvc">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<Services date="05/09/2026 22:37:11">
+			<TweakGroup name="services">
+				<Tweak name="UserDataSvc\UserDataSvc">4</Tweak>
+				<Tweak name="UnistoreSvc\UnistoreSvc">4</Tweak>
+				<Tweak name="wscsvc\wscsvc">4</Tweak>
+				<Tweak name="SharedAccess\SharedAccess">4</Tweak>
+				<Tweak name="SessionEnv\SessionEnv">4</Tweak>
+				<Tweak name="RasMan\RasMan">4</Tweak>
+				<Tweak name="DusmSvc\DusmSvc">4</Tweak>
+				<Tweak name="WpcMonSvc\WpcMonSvc">4</Tweak>
+				<Tweak name="PimIndexMaintenanceSvc\PimIndexMaintenanceSvc">4</Tweak>
+				<Tweak name="DevicesFlowUserSvc\DevicesFlowUserSvc">4</Tweak>
+				<Tweak name="Fax\Fax">4</Tweak>
+				<Tweak name="GameInputSvc\GameInputSvc">4</Tweak>
+				<Tweak name="XblAuthManager\XblAuthManager">4</Tweak>
+				<Tweak name="DsmSvc\DsmSvc">4</Tweak>
+				<Tweak name="SEMgrSvc\SEMgrSvc">4</Tweak>
+				<Tweak name="WinRM\WinRM">4</Tweak>
+				<Tweak name="DevQueryBroker\DevQueryBroker">4</Tweak>
+				<Tweak name="XblGameSave\XblGameSave">4</Tweak>
+				<Tweak name="TrkWks\TrkWks">3</Tweak>
+				<Tweak name="edgeupdate\edgeupdate">4</Tweak>
+				<Tweak name="edgeupdatem\edgeupdatem">4</Tweak>
+				<Tweak name="IKEEXT\IKEEXT">2</Tweak>
+				<Tweak name="autotimesvc\autotimesvc">4</Tweak>
+				<Tweak name="W32Time\W32Time">4</Tweak>
+				<Tweak name="DoSvc\DoSvc">4</Tweak>
+				<Tweak name="FDResPub\FDResPub">4</Tweak>
+				<Tweak name="Wecsvc\Wecsvc">4</Tweak>
+				<Tweak name="ShellHWDetection\ShellHWDetection">4</Tweak>
+				<Tweak name="LanmanServer\LanmanServer">4</Tweak>
+				<Tweak name="TermService\TermService">4</Tweak>
+				<Tweak name="diagnosticshub.standardcollector.service\diagnosticshub.standardcollector.service">4</Tweak>
+				<Tweak name="BthAvctpSvc\BthAvctpSvc">4</Tweak>
+				<Tweak name="FontCache\FontCache">4</Tweak>
+				<Tweak name="SensorDataService\SensorDataService">4</Tweak>
+				<Tweak name="WbioSrvc\WbioSrvc">4</Tweak>
+				<Tweak name="DsSvc\DsSvc">4</Tweak>
+				<Tweak name="BDESVC\BDESVC">4</Tweak>
+				<Tweak name="lfsvc\lfsvc">4</Tweak>
+				<Tweak name="UsoSvc\UsoSvc">4</Tweak>
+				<Tweak name="bthserv\bthserv">4</Tweak>
+				<Tweak name="WPDBusEnum\WPDBusEnum">4</Tweak>
+				<Tweak name="BTAGService\BTAGService">4</Tweak>
+				<Tweak name="WdNisSvc\WdNisSvc">4</Tweak>
+				<Tweak name="WMPNetworkSvc\WMPNetworkSvc">4</Tweak>
+			</TweakGroup>
+		</Services>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\Void.iso</AutoIsoFile>
+		<AutoIsoLabel>Void</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/10/2026 16:10:36">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\VoidOS_Final.iso</AutoIsoFile>
+		<AutoIsoLabel>Void</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/09/2026 22:37:11">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\VoidOS_developement_isos.iso</AutoIsoFile>
+		<AutoIsoLabel>Void</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/09/2026 02:44:36">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\Void.iso</AutoIsoFile>
+		<AutoIsoLabel>Void</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/09/2026 01:48:38">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatSwm</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\VoidOS_4p7qX2qWr.iso</AutoIsoFile>
+		<AutoIsoLabel>Void_OS</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/09/2026 01:44:35">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\VoidOS_4p7qX2qWr.iso</AutoIsoFile>
+		<AutoIsoLabel>Void_OS</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<ApplyOptions date="05/09/2026 01:27:25">
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\quezii\Documents\VoidOS_4p7qX2qWr.iso</AutoIsoFile>
+		<AutoIsoLabel>Void_OS</AutoIsoLabel>
+		<Commands>
+			<PostApply>
+				<!--<Command>cmd /C echo Example from "[MOUNTDIR]\Windows" &amp; pause</Command>-->
+				<!--<Command>cmd /C dism /image:"[MOUNTDIR]" /get-intl</Command>-->
+				<!--<Command>C:\PathToScript\test.cmd</Command>-->
+			</PostApply>
+		</Commands>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Add>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\Void\VoidOS</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\VoidOS\</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\Void\VoidOS\macosCursors-ns-n</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\macosCursors-ns-n\</DestPath>
+				<Index>1</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/10/2026 16:10:36">
+		<Add>
+			<Item type="22">
+				<Path>C:\Users\quezii\Desktop\Void\VoidOS</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\VoidOS</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\Void\VoidOS\macosCursors-ns-n</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Cursors\macosCursors-ns-n\</DestPath>
+				<Index>1</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\wallpaper.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1000</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\disable_services.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1001</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\msedge\remove_edge_copilot.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1002</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\start_windowsup.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1003</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\voidos.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1004</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\8.Brave Optimization\BraveBrowserSetup-BRV013.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1005</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\restart.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1006</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/09/2026 22:37:11">
+		<Add>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\VoidOS-Tweaks\Customization\Cursor\macosCursors-ns-n</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Cursors\macosCursors-ns-n\</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\Void\VoidOS_Pack</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\VoidOS_Pack\</DestPath>
+				<Index>1</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\boot.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1000</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\disable_services.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1001</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\start_windowsup.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1002</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\voidos.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1003</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\restart.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1004</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/09/2026 02:44:36">
+		<Add>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\VoidOS_Softwares</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\%localappdata%\VoidOS_Softwares\</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\VoidOS-Tweaks\Customization\Cursor\macosCursors-ns-n</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Cursors\macosCursors-ns-n\</DestPath>
+				<Index>1</Index>
+			</Item>
+			<Item type="22">
+				<Path>C:\Users\quezii\Desktop\VoidOS-Tweaks\Customization\Cursor\macosCursors-ns-n\Install.inf</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\Setup\Install.inf</DestPath>
+				<Index>2</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\VoidOS Softwares\Launcher\launcher.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1000</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/09/2026 01:48:38">
+		<Add>
+			<Item type="23">
+				<Path>C:\Users\quezii\Desktop\VoidOS_Softwares</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\%localappdata%\VoidOS_Softwares\</DestPath>
+				<Index>0</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/09/2026 01:44:35">
+		<Add>
+			<Item type="22">
+				<Path>C:\Users\quezii\Desktop\VoidOS_Softwares</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\%appdata%\VoidOS_Softwares</DestPath>
+				<Index>0</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Execution BeforeLogonMode="0" date="05/09/2026 01:27:25">
+		<Add>
+			<Item type="22">
+				<Path>C:\Users\quezii\Desktop\VoidOS_Softwares</Path>
+				<DestMode>1</DestMode>
+				<DestPath>\Windows\%appdata%\VoidOS_Softwares</DestPath>
+				<Index>0</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\VoidOS Softwares\Launcher\launcher.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1000</Index>
+			</Item>
+			<Item type="20">
+				<Path>label C: Void OS</Path>
+				<Params></Params>
+				<Index>1001</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\#Disable USB Devices Idle.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1002</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\#USB Optimization.cmd</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1003</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\8.Brave Optimization\BraveBrowserSetup-BRV013.exe</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1004</Index>
+			</Item>
+			<Item type="18">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\8.Brave Optimization\Delete Brave Bloatware.bat</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1005</Index>
+			</Item>
+			<Item type="28">
+				<Path>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\8.Brave Optimization\Delete Task Scheduler Brave.reg</Path>
+				<Params></Params>
+				<DestMode>1</DestMode>
+				<Index>1006</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<PowerScheme type="3" guid="33366464-3064-6539-3431-363539353766" activate="true"></PowerScheme>
+		<PowerScheme type="3" guid="3af9B8d9-7c97-431d-ad78-34a8bfea439f" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="961cc777-2547-4f9d-8174-7d86181b8a7a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="a1841308-3541-4fab-bc81-f71556f20b4a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="ded574b5-45a0-4f42-8737-46345c09c238" remove="true"></PowerScheme>
+	</Registry>
+	<Registry date="05/10/2026 16:10:36">
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\+16gb Ram Paging.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\C-State.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable File History Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Network Usage.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable NetworkThrottling.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Power Throttling.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Windows Telemetry.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable_Preemption.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableEnergyLogging.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableGpuPreemption.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DMA.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FiveMHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Fix Slow Loading Windows Icons.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Full Screen Optimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FullPing.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FullScreenOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\GameBarOff.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Gpu boost.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\GpuEnergyDriver.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\GpuFreqMax.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\High Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\LowLatencyMode.REG</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\MaintainLowLatency.REG</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Max FPS.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\MaxReact.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\NetWorkBuffer.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Overlay.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Ping Reduction Registry.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\PingTcpAllier.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Power-Plan Tweak.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ProcessorThrottle.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\TCPspeed.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\VoidOS-Tweaks\#CONFIGURATOR\VoidOS_Powerplan.pow</File>
+		<PowerScheme type="2" guid="33366464-3064-6539-3431-363539353766">
+			<FriendlyName>VoidOS</FriendlyName>
+			<Description>Activate It https://discord.gg/J3fSmuKetW</Description>
+		</PowerScheme>
+	</Registry>
+	<Registry date="05/09/2026 22:37:11">
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\+16gb Ram Paging.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\C-State.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DMA.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Network Usage.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable NetworkThrottling.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Power Throttling.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FiveMHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Fix Slow Loading Windows Icons.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\FullPing.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\NetWorkBuffer.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Ping Reduction Registry.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\PingTcpAllier.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Power-Plan Tweak.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ProcessorThrottle.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\TCPspeed.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\reg\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\DisableEnergyLogging.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\DisableGpuPreemption.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Full Screen Optimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\FullScreenOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\GameBarOff.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Gpu boost.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\GpuEnergyDriver.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\GpuFreqMax.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\High Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\LowLatencyMode.REG</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\MaintainLowLatency.REG</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Max FPS.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\MaxReact.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Overlay.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Disable File History Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Disable Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Disable Windows Telemetry.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\1.Gpu FinalBoss\Nvidia\GPU Tweaks\Disable_Preemption.reg</File>
+		<File>C:\Users\quezii\Desktop\Void\Tweaks\postsetup\run_voidos.reg</File>
+		<File>C:\Users\quezii\Desktop\VoidOS-Tweaks\#CONFIGURATOR\VoidOS_Powerplan.pow</File>
+		<PowerScheme type="3" guid="3af9B8d9-7c97-431d-ad78-34a8bfea439f" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="961cc777-2547-4f9d-8174-7d86181b8a7a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="a1841308-3541-4fab-bc81-f71556f20b4a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="ded574b5-45a0-4f42-8737-46345c09c238" remove="true"></PowerScheme>
+		<PowerScheme type="2" guid="33366464-3064-6539-3431-363539353766" activate="true">
+			<FriendlyName>VoidOS</FriendlyName>
+			<Description>Created And Customized Only For Our Clients https://discord.gg/STHEWbK6</Description>
+		</PowerScheme>
+	</Registry>
+	<Registry date="05/09/2026 02:44:36">
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableCPUFraqManegement.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\1.Fortnite\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\2.Valorant\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\5.R6\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\Quezii - PowerPlan\QueziiOs PowerPlan - Idle Standard.pow</File>
+		<PowerScheme type="3" guid="3af9B8d9-7c97-431d-ad78-34a8bfea439f" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="961cc777-2547-4f9d-8174-7d86181b8a7a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="a1841308-3541-4fab-bc81-f71556f20b4a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="ded574b5-45a0-4f42-8737-46345c09c238" remove="true"></PowerScheme>
+		<PowerScheme type="2" guid="63336333-6161-3163-3964-623363393133" activate="true">
+			<FriendlyName>VoidOS</FriendlyName>
+			<Description>BestPerformance Ever</Description>
+		</PowerScheme>
+	</Registry>
+	<Registry date="05/09/2026 01:48:38">
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\C-State.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Cpu AffinityMask.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Power Throttling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableCpuOveruse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Power-Plan Tweak.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\1.Fortnite\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\2.Valorant\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\3.FiveM\FiveMHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\5.R6\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DMA.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Fix Slow Loading Windows Icons.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable Network Usage.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable NetworkThrottling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\FullPing.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\NetWorkBuffer.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Ping Reduction Registry.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\PingTcpAllier.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\TCPspeed.reg</File>
+		<File>C:\Users\quezii\Desktop\VoidOS Softwares\whatermark.reg</File>
+	</Registry>
+	<Registry date="05/09/2026 01:44:35">
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\C-State.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Cpu AffinityMask.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Power Throttling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableCpuOveruse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Power-Plan Tweak.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\1.Fortnite\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\2.Valorant\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\3.FiveM\FiveMHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\5.R6\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DMA.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Fix Slow Loading Windows Icons.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable Network Usage.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable NetworkThrottling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\FullPing.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\NetWorkBuffer.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Ping Reduction Registry.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\PingTcpAllier.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\TCPspeed.reg</File>
+		<File>C:\Users\quezii\Desktop\VoidOS Softwares\whatermark.reg</File>
+	</Registry>
+	<Registry date="05/09/2026 01:27:25">
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Cpu AffinityMask.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\C-State.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Dis CpuQuota.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Hibernation.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Disable Power Throttling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableCpuOveruse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisableIdleState.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\DisHDDParking.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Enable DPI MAP Contigui.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Power-Plan Tweak.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\WinGamingOptimization.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\CpuReg Fetures\Add Maximum processor frequency to Power Options.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\csrss.exe Realtime Priority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\System\Priority26.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\1.Fortnite\FortniteHighPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\2.Valorant\ValorantHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\3.FiveM\FiveMHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\BlackOpsColdWarHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\CodVanguardHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\4.Cod\ModernWarfareHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\3.System Tweak\Priority's\Game\5.R6\RainbowSixHigPriority.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Disable Notification Center.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DisablePrefetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\DMA.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\4.Storage SSD HDD Tweaks\Memory Light\Fix Slow Loading Windows Icons.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalKeyboard.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\20 DecimalMouse.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\Disable USB Power Saving.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisLatencyCap.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\DisStartPortIDLE.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\GenerallyTweaks.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\Delay Tweaks\Optimize USB For gaming\USB Suspend Disable .reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableHiber.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableNetBT.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableStartupDelay.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\1 VARIABILE Disable Bluetooth Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Automatic Maintenance.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable BITS Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Clear Pagefile at Shutdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostic Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Diagnostics _ Telemetry Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Driver Searching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Firefox Updates.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Nagles Algorithm.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Phone Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Prefetcher.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Printer Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Runtime Broker.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Spectre and Meltdown.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Superfetch.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable SysMain Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Biometric Service.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Windows Map Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\Disable Xbox Services.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\5.LowLatency\System Debloat\DisableDSearching.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable Network Usage.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Disable NetworkThrottling.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\FullPing.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\NetWorkBuffer.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\Ping Reduction Registry.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\PingTcpAllier.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\6.Internet Tweak\LAN\1.Registry Optimization\TCPspeed.reg</File>
+		<File>C:\Users\quezii\Desktop\VoidOS Softwares\whatermark.reg</File>
+		<File>C:\Users\quezii\Desktop\Quezii The Optimizer\3.Tweaks\2.CPU PowerPlan and Fetures\Quezii - PowerPlan\QueziiOs PowerPlan - Idle Standard.pow</File>
+		<PowerScheme type="3" guid="381b4222-f694-41f0-9685-ff5bb260df2e" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="3af9B8d9-7c97-431d-ad78-34a8bfea439f" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="961cc777-2547-4f9d-8174-7d86181b8a7a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="a1841308-3541-4fab-bc81-f71556f20b4a" remove="true"></PowerScheme>
+		<PowerScheme type="3" guid="ded574b5-45a0-4f42-8737-46345c09c238" remove="true"></PowerScheme>
+		<PowerScheme type="2" guid="63336333-6161-3163-3964-623363393133" activate="true">
+			<FriendlyName>Void OS PowerPlan - Idle Standard</FriendlyName>
+			<Description>THE BEST powerplan optimized for performance threads and peak Core State</Description>
+		</PowerScheme>
+	</Registry>
+</Preset>

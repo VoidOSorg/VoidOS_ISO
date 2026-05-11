@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00 - By M4k
+
+:: SysMain Service 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SysMain]
+"Start"=dword:00000004

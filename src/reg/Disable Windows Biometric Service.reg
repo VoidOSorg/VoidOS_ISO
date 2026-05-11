@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00 - By M4k
+
+:: Windows Biometric Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WbioSrvc]
+"Start"=dword:00000004

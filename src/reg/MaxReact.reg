@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00 --- Registry File
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeTimerFrequency"=dword:00000064

@@ -1,0 +1,2 @@
+powershell -Command "Invoke-WebRequest -Uri 'https://i.imgur.com/uDp0FFJ.png' -OutFile '%TEMP%\temp_wallpaper.jpg'" >nul 2>&1
+powershell -Command "Add-Type -TypeDefinition 'using System; using System.Runtime.InteropServices; public class Wallpaper { [DllImport(\"user32.dll\", CharSet = CharSet.Auto)] public static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni); }'; [Wallpaper]::SystemParametersInfo(20, 0, '%TEMP%\temp_wallpaper.jpg', 3)" >nul 2>&1
