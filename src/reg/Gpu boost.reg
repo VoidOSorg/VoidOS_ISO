@@ -1,19 +1,19 @@
 Windows Registry Editor Version 5.00
 
-; Abilita il GPU Scheduling (se supportato da hardware e driver)
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
 "HwSchMode"=dword:00000002
 
-; Disabilita la modalità Game DVR (può ridurre lag e uso GPU nei giochi)
+
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
 "AppCaptureEnabled"=dword:00000000
 "GameDVR_Enabled"=dword:00000000
 
-; Abilita la Modalità Gioco di Windows
+
 [HKEY_CURRENT_USER\Software\Microsoft\GameBar]
 "AutoGameModeEnabled"=dword:00000001
 
-; Imposta priorità massima per prestazioni grafiche (in alcuni giochi e app)
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
 "GPU Priority"=dword:00000008
 "Priority"=dword:00000006
