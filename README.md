@@ -9,7 +9,8 @@
 
 - **Processes at boot**: ~<strong>35 processes on average</strong>
 - **RAM usage**: ~<strong> 0.7 GB </strong>
-- **Base**: <strong>Windows (22h 2)</strong>
+- **Base**: ~<strong>Windows (22h 2)</strong>
+- **Privacy**: ~<strong>250% more than a Windows stock</strong>
 
 A responsive system, suitable for both older hardware and modern machines that want to use every available frame.
 
