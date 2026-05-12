@@ -17,7 +17,7 @@ A responsive system, suitable for both older hardware and modern machines that w
 
 **Boot Loader** – A custom, lightweight boot loader that reduces startup time and provides a clean experience from the moment you turn on your PC.
 
-**Control Panel** – A central interface to manage all VoidOS optimizations, including gaming mode, killing unnecessary processes, RAM cleaning, and service management.
+**Control Panel** – A central interface to manage all VoidOS optimizations, including Intel TSX, UAC management, performance tweaks,personalization, to get the lastest updates of the ControlPanel [join the discord](https://discord.gg/4fEnb9c8qq).
 
 **Configuration Folder** – A preconfigured directory (`C:\Windows\Void`) containing tweaks backups that can be applied manually or automatically.
 
