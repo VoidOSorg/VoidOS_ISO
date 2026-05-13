@@ -1,6 +1,5 @@
-<h1>
-  <img src="https://i.imgur.com/8xG27Hz.png" alt="VoidOS Logo" width="50" style="vertical-align:middle;"> 
-  VoidOS ISO - Version 
+<h1 align="center">
+  <a><img src="https://i.ibb.co/vxFqLJwp/Frame-91.png" alt="VoidOSorg" width="800"></a>
 </h1>
 
 **VoidOS** is no longer just a playbook. It is now a complete, standalone ISO based on Windows, manually optimized for maximum performance in gaming, productivity, and low resource usage.
